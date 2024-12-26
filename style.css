@@ -1,0 +1,16 @@
+/* ill be using the "*" to create a universal styiling for my page */
+* {
+
+    /* resets the margin and padding set by the browser to 0 */
+    margin: 0;  
+    padding: 0;
+
+    /* changed the box sizing rule to maintain the desired dimensions of my box when adding margin/border etc */
+    box-sizing: border-box;
+
+    /* assigned font from google fonts */
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+                                /*stopped after applying fonts from google fonts. neeed to learn more about adding fonts from google fonts!!!  */

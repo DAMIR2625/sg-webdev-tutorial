@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- created the header element where i will be placing the elements for my header inside (logo.img and navigation buttons) -->
+    <header>
+
+        <!-- created a div using the emmet function ".classname (automatically creates the div element with the class)" -->
+         <!--  -->
+        <div class="logo">
+            <img src="./images/—Pngtree—corporate image logo free logo_1026060.png" alt="logo" width="150px"> 
+        </div>
+
+        <!-- used the "<nav> tag fir the navigation" -->
+        <nav>
+            <!-- for the navigation buttons i used "<ul>-<li>" -->.
+            <!-- instead of writing it manually. I used the emmet function "ul>li" to write "<ul>/<li> automatically"  -->
+            <ul>
+                <!-- to make the nav bar clickable i used the "<a>" tag and inserted "#" in the "href" (redirects to nowhere) -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Faq</a></li>
+                <!-- assigned a class to the sign up button to style it in css differently -->
+                <li><a href="#" class="signup-btn">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- i'll be using the main tag to style the main body of the page -->
+    <!-- i have 2 division on my main element which split to the left and right. -->
+    <!-- on the left i have my main <h1> and <p> content -->
+    <!-- on the right i have my hero .img -->
+     <main>
+
+        <!-- created a class for the contents of left and right -->
+        <!-- used a dummy for my p tag followed by the number of words i want "lorem25" -->
+         <div class="content-left">
+            <h1>Digital</h1>
+            <h2>Marketing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi temporibus, tempora in iure iste perspiciatis voluptate itaque dolorem, dicta illum fugit quod excepturi amet.</p>
+           
+            <!-- created a call to action button -->
+            <!-- used the emmet function "button.cta". (typing the element before the .classname will use the elemt that you desire instead of div) -->
+            <button class="cta">Learn More</button>
+            
+         </div>
+         <div class="content-right">
+
+            <!-- assign the hero image on the right side inside  of my main container -->
+            <!-- assigned a class for my img tag to style in CSS -->
+            <img src="./images/—Pngtree—cyber bullying landing page opinion_15977779.png" alt="" class="hero-img">
+         </div>
+    </main>
+
+</body>
+</html>
+
+
+<!-- Installed Live Server extension -->
+ <!-- at this point the content of my landing page is complete -->
+  <!-- Styling in CSS will be applied to all my elements -->
